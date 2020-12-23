@@ -1,0 +1,10 @@
+body{
+    background: #eaeaea;
+}
+aside{
+    position: absolute;
+    z-index: 999;
+}
+.container{
+    box-shadow:  1px 1px 3px black
+}
