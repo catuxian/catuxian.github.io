@@ -1,10 +1,24 @@
 body{
     background: #eaeaea;
 }
-aside{
-    position: absolute;
-    z-index: 999;
-}
 .container{
     box-shadow:  1px 1px 3px black
+}
+/*學經歷*/
+.list div{
+    border-left: 2px solid black;
+}
+.list div::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    left: -5.5px;
+}
+
+footer{
+    margin: auto;
 }
