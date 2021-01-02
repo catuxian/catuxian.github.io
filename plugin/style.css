@@ -18,7 +18,22 @@ body{
     border-radius: 50%;
     left: -5.5px;
 }
+/*技能*/
 
+
+/*作品集*/
+#myWork div{
+    width: 300px;
+    height: 300px;
+    margin-top: -250px;
+    opacity: 0;
+    transition: 0.5s;
+}
+#myWork div:hover{
+    opacity: 1;
+}
+
+/* 頁尾 */
 footer{
     margin: auto;
 }

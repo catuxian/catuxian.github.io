@@ -41,7 +41,7 @@
             </ul>
         </div>
     </nav>
-    <div class="container text-center mt-10 bg-white">
+    <div class="container text-center mt-10 bg-white p-0">
         <header class="my-5 pb-2 border-bottom">
             <h4 class="pt-3">標題</h4>
             <img src="https://fakeimg.pl/100x100/" class="rounded mx-auto d-block rounded-circle mb-2">
@@ -72,70 +72,41 @@
         <!-- 技能 -->
         <div class="m-5 pt-5" id="skills">
             <h4>技能</h4>
-            <!-- 大畫面時，為橫向排列，當畫面小於992px時，圖片與文字改為直向排列 -->
-            <div class="row">
-                <div class="card mb-3 col-md-6" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://fakeimg.pl/300x300" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
+            <div class="row justify-content-around">
+                <div class="card col-md-5 m-2">
+                    <img src="https://fakeimg.pl/200x200/" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">前端技能</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
                     </div>
                 </div>
-                <div class="card mb-3 col-md-6" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="https://fakeimg.pl/300x300" class="card-img" alt="...">
-                        </div>
+                <div class="card col-md-5 m-2">
+                    <img src="https://fakeimg.pl/200x200/" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">後端技能</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
                     </div>
                 </div>
-                <div class="card mb-3 col-md-6" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="https://fakeimg.pl/300x300" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
+                <div class="card col-md-5 m-2">
+                    <img src="https://fakeimg.pl/200x200/" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">美編技能</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
                     </div>
                 </div>
-                <div class="card mb-3 col-md-6" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="https://fakeimg.pl/300x300" class="card-img" alt="...">
-                        </div>
+                <div class="card col-md-5 m-2">
+                    <img src="https://fakeimg.pl/200x200/" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">版本控制</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
                     </div>
                 </div>
             </div>
@@ -143,21 +114,50 @@
         <!-- 作品集 -->
         <div class="m-5 pt-5" id="works">
             <h4>作品集</h4>
-            <div>
-                <img src="https://fakeimg.pl/250x300/" class="rounded mb-2">
-                <img src="https://fakeimg.pl/250x300/" class="rounded mb-2">
-                <img src="https://fakeimg.pl/250x300/" class="rounded mb-2">
-                <img src="https://fakeimg.pl/250x300/" class="rounded mb-2">
-                <img src="https://fakeimg.pl/250x300/" class="rounded mb-2">
+            <div class="row d-flex justify-content-around">
+                <div class="mb-2">
+                    <div id="myWork">
+                        <img src="https://fakeimg.pl/300x300/">
+                        <div>
+                            <h3>Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione dolores sunt inventore, ut laudantium repellat qui a consequatur ea facere unde esse facilis? Sapiente suscipit corporis doloremque molestias repellendus!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mb-2">
+                    <div id="myWork">
+                        <img src="https://fakeimg.pl/300x300/">
+                        <div>
+                            <h3>Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione dolores sunt inventore, ut laudantium repellat qui a consequatur ea facere unde esse facilis? Sapiente suscipit corporis doloremque molestias repellendus!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mb-2">
+                    <div id="myWork">
+                        <img src="https://fakeimg.pl/300x300/">
+                        <div>
+                            <h3>Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione dolores sunt inventore, ut laudantium repellat qui a consequatur ea facere unde esse facilis? Sapiente suscipit corporis doloremque molestias repellendus!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" mb-2">
+                    <div id="myWork">
+                        <img src="https://fakeimg.pl/300x300/">
+                        <div>
+                            <h3>Lorem</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ratione dolores sunt inventore, ut laudantium repellat qui a consequatur ea facere unde esse facilis? Sapiente suscipit corporis doloremque molestias repellendus!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- 聯絡我 -->
-        <footer class="m-5 pt-5" id="contact">
-            <h4>聯絡我</h4>
-            <p>電話：0912121212</p>
-            <p>email：123@mail.com</p>
-        </footer>
     </div>
+    <!-- 聯絡我 -->
+    <footer id="contact" class="text-center">
+        <p>Copyright © 2021 YE,YU-XIAN all rights reserved.</p>
+    </footer>
 </body>
 
 </html>
