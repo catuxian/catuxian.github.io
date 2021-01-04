@@ -1,12 +1,25 @@
 body{
-    background: #eaeaea;
+    background:#ccc;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
 }
 .container{
     box-shadow:  1px 1px 3px black
 }
+ul{
+    list-style:none;
+}
+/*標題區*/
+
 /*學經歷*/
 .list div{
     border-left: 2px solid black;
+    position: relative;
+
 }
 .list div::before{
     content: '';
@@ -16,10 +29,13 @@ body{
     background: black;
     position: absolute;
     border-radius: 50%;
-    left: -5.5px;
+    left: -6.5px;
 }
 /*技能*/
+.skill:hover{ 
+    box-shadow: 0 0 10px black;
 
+}
 
 /*作品集*/
 .myWork{
@@ -50,3 +66,4 @@ body{
 footer{
     margin: auto;
 }
+
