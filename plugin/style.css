@@ -1,7 +1,7 @@
 body{
     background:#ccc;
 }
-a{
+header a{
     text-decoration: none;
     color: white;
 }
@@ -11,8 +11,8 @@ a:hover{
 .container{
     box-shadow:  1px 1px 3px black
 }
-ul{
-    list-style:none;
+li{
+    line-height: 2rem;
 }
 /*NavBar*/
 .navbar{
@@ -25,6 +25,12 @@ ul{
 .list div{
     border-left: 2px solid black;
     position: relative;
+}
+.list h4{
+    font-weight: 900;
+}
+.list h5{
+    font-weight:600
 }
 .list div::before{
     content: '';
